@@ -1,0 +1,40 @@
+.navigation-bar {
+  max-width: 234px;
+}
+
+.navigation-bar__list{
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation-bar__link{
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  gap: 20px;
+  padding: 12px 20px;
+}
+
+.navigation-bar__link:hover{
+  background-color: #F5F8FA;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+
+.navigation-bar__logo {
+  display: flex;
+  align-items: center;
+  padding: 12px 20px; 
+}
+
+.navigation-bar__logo-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.navigation-bar__text{
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: black;
+}

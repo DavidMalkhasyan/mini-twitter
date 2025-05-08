@@ -15,7 +15,7 @@ A minimalist Twitter clone built with **React**. Create, display, and delete twe
 
 ## 🚀 Technologies Used
 
-- React
+- React (with Vite or Create React App)
 - CSS Modules or TailwindCSS
 - LocalStorage API
 
@@ -27,4 +27,4 @@ A minimalist Twitter clone built with **React**. Create, display, and delete twe
 git clone https://github.com/your_username/microtweet.git
 cd microtweet
 npm install
-npm start
+npm 
