@@ -1,0 +1,55 @@
+.user-profile-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-profile-card__avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.user-profile-card__info {
+  
+}
+
+.user-profile-card__header{
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+}
+
+.user-profile-card__name {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+}
+
+.user-profile-card__verified-icon {
+
+}
+
+.user-profile-card__username {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  color: #657786;
+  
+}
+
+.user-profile-card__actions {
+  display: flex;
+  align-items: center;
+}
+
+.user-profile-card__more-button {
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-weight: 800;
+}

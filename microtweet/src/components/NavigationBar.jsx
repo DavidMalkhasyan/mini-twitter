@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import PostButton from "./PostButton";
-
+import UserProfileCard from "../components/UserProfileCard.jsx";
 import { ReactComponent as HomeIcon } from "../assets/Home.svg";
 import { ReactComponent as ExploreIcon } from "../assets/Vector.svg";
 import { ReactComponent as NotificationsIcon } from "../assets/Notifications.svg";
@@ -66,6 +66,7 @@ export default function NavigationBar() {
                 </Link>
             </div>
             <PostButton />
+            <UserProfileCard />
         </nav>
     );
 }
